@@ -1,70 +1,36 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <title>Kontak Kami - Kantor Hukum DR. Parlindungan, SH. MH. CLA. & Rekan</title>
+    <meta name="description" content="Kantor Hukum DR. Parlindungan, SH. MH. CLA. & Rekan - Advokat dan Konsultan Hukum Profesional di Pekanbaru. Layanan Hukum Pidana, Perdata, Bisnis, Properti, dan Keluarga. Konsultasi Hukum Gratis.">
+    <meta name="keywords" content="advokat pekanbaru, pengacara riau, hukum pekanbaru, konsultan hukum, lawyer riau, kuasa hukum, bantuan hukum, pengacara pidana, hukum perdata, sengketa tanah, hukum keluarga, firma hukum pekanbaru, dr parlindungan">
+    <meta name="author" content="DR. Parlindungan, SH. MH. CLA., Advokat">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Indonesian">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Kantor Hukum DR. Parlindungan, SH. MH. CLA. & Rekan - Advokat Terpercaya Pekanbaru">
+    <meta property="og:description" content="Layanan hukum profesional di Pekanbaru dan Riau. Advokat berpengalaman menangani kasus pidana, perdata, bisnis, properti, dan hukum keluarga.">
+    <meta property="og:image" content="img/image.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kantor Hukum DR. Parlindungan - Advokat Pekanbaru">
+    <meta name="twitter:description" content="Solusi hukum terpercaya untuk individu dan bisnis di Pekanbaru. Konsultasi hukum gratis via WhatsApp.">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://advokatparlindungan.com">
+
+    <!-- Additional Meta Tags -->
+    <meta name="format-detection" content="telephone=yes">
+
+    <!-- Scripts & Stylesheets -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <!-- Meta Tags yang Diperbarui (letakkan dalam <head> setelah title) -->
-<meta name="description" content="Kantor Hukum DR. Parlindungan, SH. MH. CLA. & Rekan - Advokat dan Konsultan Hukum Profesional di Pekanbaru. Layanan Hukum Pidana, Perdata, Bisnis, Properti, dan Keluarga. Konsultasi Hukum Gratis.">
-<meta name="keywords" content="advokat pekanbaru, pengacara riau, hukum pekanbaru, konsultan hukum, lawyer riau, kuasa hukum, bantuan hukum, pengacara pidana, hukum perdata, sengketa tanah, hukum keluarga, firma hukum pekanbaru, dr parlindungan">
-<meta name="author" content="DR. Parlindungan, SH. MH. CLA., Advokat">
-<meta name="robots" content="index, follow">
-<meta name="language" content="Indonesian">
-<meta name="revisit-after" content="7 days">
-<meta name="rating" content="general">
-
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://drparlindungan.com/">
-<meta property="og:title" content="Kantor Hukum DR. Parlindungan, SH. MH. CLA. & Rekan - Advokat Terpercaya Pekanbaru">
-<meta property="og:description" content="Layanan hukum profesional di Pekanbaru dan Riau. Advokat berpengalaman menangani kasus pidana, perdata, bisnis, properti, dan hukum keluarga.">
-<meta property="og:image" content="{{ asset('img/og-image.jpg') }}">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:locale" content="id_ID">
-<meta property="og:site_name" content="Kantor Hukum DR. Parlindungan & Rekan">
-
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@parlindungan_riau">
-<meta name="twitter:creator" content="@parlindungan_riau">
-<meta name="twitter:title" content="Kantor Hukum DR. Parlindungan - Advokat Pekanbaru">
-<meta name="twitter:description" content="Solusi hukum terpercaya untuk individu dan bisnis di Pekanbaru. Konsultasi hukum gratis via WhatsApp.">
-<meta name="twitter:image" content="{{ asset('img/twitter-image.jpg') }}">
-
-<!-- Canonical URL -->
-<link rel="canonical" href="https://drparlindungan.com/">
-
-<!-- Structured Data / Schema.org -->
-
-
-<!-- Additional Meta Tags -->
-<meta name="geo.region" content="ID-RI">
-<meta name="geo.placename" content="Pekanbaru">
-<meta name="geo.position" content="0.5065616;101.3756855">
-<meta name="ICBM" content="0.5065616, 101.3756855">
-<meta name="distribution" content="global">
-<meta name="target" content="all">
-<meta name="apple-mobile-web-app-title" content="DR. Parlindungan Law Firm">
-<meta name="application-name" content="Kantor Hukum Parlindungan">
-<meta name="msapplication-TileColor" content="#1e3a8a">
-<meta name="theme-color" content="#1e3a8a">
-
-<!-- Viewport tambahan untuk mobile -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
-<meta name="format-detection" content="telephone=yes">
-
-<!-- Dublin Core Metadata -->
-<meta name="DC.title" content="Kantor Hukum DR. Parlindungan - Advokat Pekanbaru">
-<meta name="DC.creator" content="DR. Parlindungan, SH. MH. CLA.">
-<meta name="DC.subject" content="Hukum, Advokat, Pengacara, Konsultan Hukum">
-<meta name="DC.description" content="Layanan hukum profesional di Pekanbaru">
-<meta name="DC.publisher" content="Kantor Hukum DR. Parlindungan & Rekan">
-<meta name="DC.date" content="2026-01-11">
 
     <script>
         tailwind.config = {
@@ -124,6 +90,17 @@
         .pulse-shadow {
             animation: pulse-shadow 2s ease-in-out infinite;
         }
+
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Better focus styles */
+        :focus-visible {
+            outline: 2px solid #3b82f6;
+            outline-offset: 2px;
+        }
     </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
@@ -131,13 +108,13 @@
     <nav class="bg-white/95 backdrop-blur-md shadow-lg fixed w-full top-0 z-50 border-b border-gray-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center py-3">
-                <div class="flex items-center space-x-4 group">
+                <div class="flex items-center space-x-3 group">
                     <div class="gradient-accent text-white rounded-lg p-2 shadow-lg">
                         <i class="fas fa-balance-scale text-xl"></i>
                     </div>
                     <div>
-                        <span class="text-xl font-bold text-primary">KANTOR HUKUM</span>
-                        <div class="text-xs text-gray-600 -mt-1 font-semibold">DR. Parlindungan, SH. MH. CLA. & Rekan</div>
+                        <span class="text-lg font-bold text-primary">KANTOR HUKUM</span>
+                        <div class="text-xs text-gray-600 font-semibold">DR. Parlindungan, SH. MH. CLA. & Rekan</div>
                     </div>
                 </div>
 
@@ -149,13 +126,13 @@
                         Kontak
                         <span class="absolute bottom-0 left-0 w-full h-0.5 bg-accent"></span>
                     </a>
-                    <a href="https://wa.me/6281268123180" target="_blank" class="gradient-accent text-white text-sm font-bold px-5 py-2 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+                    <a href="https://wa.me/6281268123180" target="_blank" rel="noopener noreferrer" class="gradient-accent text-white text-sm font-bold px-5 py-2 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
                         <i class="fab fa-whatsapp mr-1.5"></i>
                         Konsultasi Gratis
                     </a>
                 </div>
 
-                <button id="mobile-menu-btn" class="lg:hidden text-primary focus:outline-none">
+                <button id="mobile-menu-btn" class="lg:hidden text-primary focus:outline-none" aria-label="Toggle menu">
                     <i class="fas fa-bars text-xl"></i>
                 </button>
             </div>
@@ -165,7 +142,7 @@
                 <a href="layanan-unggulan" class="block py-2 text-sm text-gray-700 hover:bg-accent/10 px-3 rounded-lg transition">Layanan</a>
                 <a href="tentang-kami" class="block py-2 text-sm text-gray-700 hover:bg-accent/10 px-3 rounded-lg transition">Tentang</a>
                 <a href="hubungi-kami" class="block py-2 text-sm text-primary font-semibold bg-accent/10 px-3 rounded-lg">Kontak</a>
-                <a href="https://wa.me/6281268123180" target="_blank" class="block w-full gradient-accent text-sm text-white font-bold py-2 px-3 rounded-lg mt-2 text-center">
+                <a href="https://wa.me/6281268123180" target="_blank" rel="noopener noreferrer" class="block w-full gradient-accent text-sm text-white font-bold py-2 px-3 rounded-lg mt-2 text-center">
                     <i class="fab fa-whatsapp mr-1.5"></i>
                     Konsultasi Gratis
                 </a>
@@ -193,7 +170,6 @@
                 Konsultasikan masalah hukum Anda dengan tim advokat profesional kami. Respons cepat, solusi tepat.
             </p>
         </div>
-
     </section>
 
     <!-- Contact Cards Section -->
@@ -208,7 +184,7 @@
                     <h3 class="font-bold text-primary text-lg mb-2">WhatsApp</h3>
                     <p class="text-sm text-gray-600 mb-4">Respons cepat via WhatsApp</p>
                     <p class="font-bold text-gray-800 mb-4">+62 812-6812-3180</p>
-                    <a href="https://wa.me/6281268123180" target="_blank" class="block w-full bg-green-500 text-white text-center py-3 rounded-lg font-semibold hover:bg-green-600 transition">
+                    <a href="https://wa.me/6281268123180" target="_blank" rel="noopener noreferrer" class="block w-full bg-green-500 text-white text-center py-3 rounded-lg font-semibold hover:bg-green-600 transition">
                         <i class="fab fa-whatsapp mr-2"></i>Chat Sekarang
                     </a>
                 </div>
@@ -267,22 +243,22 @@
                             <!-- Nama & Email -->
                             <div class="grid md:grid-cols-2 gap-6">
                                 <div class="space-y-2">
-                                    <label class="text-sm font-semibold text-gray-700">Nama Lengkap <span class="text-accent">*</span></label>
+                                    <label for="nama" class="text-sm font-semibold text-gray-700">Nama Lengkap <span class="text-accent">*</span></label>
                                     <div class="relative">
                                         <span class="absolute inset-y-0 left-0 pl-4 flex items-center text-gray-400">
                                             <i class="fas fa-user"></i>
                                         </span>
-                                        <input type="text" required placeholder="Masukkan nama lengkap Anda" class="w-full pl-12 pr-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all">
+                                        <input type="text" id="nama" name="nama" required placeholder="Masukkan nama lengkap Anda" class="w-full pl-12 pr-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all">
                                     </div>
                                 </div>
 
                                 <div class="space-y-2">
-                                    <label class="text-sm font-semibold text-gray-700">Alamat Email <span class="text-accent">*</span></label>
+                                    <label for="email" class="text-sm font-semibold text-gray-700">Alamat Email <span class="text-accent">*</span></label>
                                     <div class="relative">
                                         <span class="absolute inset-y-0 left-0 pl-4 flex items-center text-gray-400">
                                             <i class="fas fa-envelope"></i>
                                         </span>
-                                        <input type="email" required placeholder="contoh@email.com" class="w-full pl-12 pr-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all">
+                                        <input type="email" id="email" name="email" required placeholder="contoh@email.com" class="w-full pl-12 pr-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all">
                                     </div>
                                 </div>
                             </div>
@@ -290,30 +266,30 @@
                             <!-- WhatsApp & Subjek -->
                             <div class="grid md:grid-cols-2 gap-6">
                                 <div class="space-y-2">
-                                    <label class="text-sm font-semibold text-gray-700">Nomor WhatsApp <span class="text-accent">*</span></label>
+                                    <label for="whatsapp" class="text-sm font-semibold text-gray-700">Nomor WhatsApp <span class="text-accent">*</span></label>
                                     <div class="relative">
                                         <span class="absolute inset-y-0 left-0 pl-4 flex items-center text-gray-400">
                                             <i class="fab fa-whatsapp"></i>
                                         </span>
-                                        <input type="tel" required placeholder="0812..." class="w-full pl-12 pr-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all">
+                                        <input type="tel" id="whatsapp" name="whatsapp" required placeholder="0812..." class="w-full pl-12 pr-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all">
                                     </div>
                                 </div>
 
                                 <div class="space-y-2">
-                                    <label class="text-sm font-semibold text-gray-700">Bidang Hukum <span class="text-accent">*</span></label>
+                                    <label for="bidang" class="text-sm font-semibold text-gray-700">Bidang Hukum <span class="text-accent">*</span></label>
                                     <div class="relative">
                                         <span class="absolute inset-y-0 left-0 pl-4 flex items-center text-gray-400">
                                             <i class="fas fa-gavel"></i>
                                         </span>
-                                        <select required class="w-full pl-12 pr-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all appearance-none">
+                                        <select id="bidang" name="bidang" required class="w-full pl-12 pr-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all appearance-none">
                                             <option value="">Pilih bidang hukum</option>
-                                            <option>Hukum Pidana</option>
-                                            <option>Hukum Perdata</option>
-                                            <option>Hukum Bisnis</option>
-                                            <option>Hukum Properti</option>
-                                            <option>Hukum Keluarga & Waris</option>
-                                            <option>Hukum Ketenagakerjaan</option>
-                                            <option>Lainnya</option>
+                                            <option value="pidana">Hukum Pidana</option>
+                                            <option value="perdata">Hukum Perdata</option>
+                                            <option value="bisnis">Hukum Bisnis</option>
+                                            <option value="properti">Hukum Properti</option>
+                                            <option value="keluarga">Hukum Keluarga & Waris</option>
+                                            <option value="ketenagakerjaan">Hukum Ketenagakerjaan</option>
+                                            <option value="lainnya">Lainnya</option>
                                         </select>
                                     </div>
                                 </div>
@@ -321,8 +297,8 @@
 
                             <!-- Pesan -->
                             <div class="space-y-2">
-                                <label class="text-sm font-semibold text-gray-700">Detail Permasalahan <span class="text-accent">*</span></label>
-                                <textarea required rows="5" placeholder="Jelaskan permasalahan hukum Anda secara detail..." class="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all resize-none"></textarea>
+                                <label for="pesan" class="text-sm font-semibold text-gray-700">Detail Permasalahan <span class="text-accent">*</span></label>
+                                <textarea id="pesan" name="pesan" required rows="5" placeholder="Jelaskan permasalahan hukum Anda secara detail..." class="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all resize-none"></textarea>
                                 <p class="text-xs text-gray-500">*Semakin detail informasi yang Anda berikan, semakin baik kami dapat membantu</p>
                             </div>
 
@@ -447,15 +423,15 @@
                     <div class="bg-gradient-to-br from-accent/5 to-accent/10 p-6 rounded-3xl border border-accent/20">
                         <h4 class="font-bold text-primary text-lg mb-4">Ikuti Kami</h4>
                         <div class="flex flex-wrap gap-3">
-                            <a href="https://wa.me/6281268123180" target="_blank" class="flex-1 min-w-[100px] bg-green-500 text-white py-3 px-4 rounded-xl hover:bg-green-600 transition text-center font-semibold">
+                            <a href="https://wa.me/6281268123180" target="_blank" rel="noopener noreferrer" class="flex-1 min-w-[100px] bg-green-500 text-white py-3 px-4 rounded-xl hover:bg-green-600 transition text-center font-semibold">
                                 <i class="fab fa-whatsapp text-xl"></i>
                                 <div class="text-xs mt-1">WhatsApp</div>
                             </a>
-                            <a href="https://www.instagram.com/parlindungan.riau/" target="_blank" class="flex-1 min-w-[100px] bg-gradient-to-br from-purple-500 to-pink-500 text-white py-3 px-4 rounded-xl hover:from-purple-600 hover:to-pink-600 transition text-center font-semibold">
+                            <a href="https://www.instagram.com/parlindungan.riau/" target="_blank" rel="noopener noreferrer" class="flex-1 min-w-[100px] bg-gradient-to-br from-purple-500 to-pink-500 text-white py-3 px-4 rounded-xl hover:from-purple-600 hover:to-pink-600 transition text-center font-semibold">
                                 <i class="fab fa-instagram text-xl"></i>
                                 <div class="text-xs mt-1">Instagram</div>
                             </a>
-                            <a href="https://www.tiktok.com/@advokat_parlindungan" target="_blank" class="flex-1 min-w-[100px] bg-gray-900 text-white py-3 px-4 rounded-xl hover:bg-black transition text-center font-semibold">
+                            <a href="https://www.tiktok.com/@advokat_parlindungan" target="_blank" rel="noopener noreferrer" class="flex-1 min-w-[100px] bg-gray-900 text-white py-3 px-4 rounded-xl hover:bg-black transition text-center font-semibold">
                                 <i class="fab fa-tiktok text-xl"></i>
                                 <div class="text-xs mt-1">TikTok</div>
                             </a>
@@ -468,7 +444,7 @@
                             <i class="fab fa-whatsapp text-5xl mb-3"></i>
                             <h4 class="font-bold text-lg mb-2">Butuh Bantuan Cepat?</h4>
                             <p class="text-sm opacity-90 mb-4">Chat langsung dengan tim kami</p>
-                            <a href="https://wa.me/6281268123180" target="_blank" class="block bg-white text-green-600 font-bold py-3 px-6 rounded-xl hover:bg-gray-100 transition">
+                            <a href="https://wa.me/6281268123180" target="_blank" rel="noopener noreferrer" class="block bg-white text-green-600 font-bold py-3 px-6 rounded-xl hover:bg-gray-100 transition">
                                 Hubungi via WhatsApp
                             </a>
                         </div>
@@ -478,41 +454,36 @@
         </div>
     </section>
 
-
-       <!-- Footer -->
+    <!-- Footer -->
     <footer id="kontak" class="gradient-dark text-white pt-16 pb-8 relative overflow-hidden">
         <div class="absolute inset-0 opacity-5">
             <div class="absolute top-0 left-20 w-64 h-64 bg-accent rounded-full blur-3xl"></div>
             <div class="absolute bottom-0 right-20 w-96 h-96 bg-accent rounded-full blur-3xl"></div>
         </div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="grid md:grid-cols-4 gap-12">
+            <div class="grid md:grid-cols-4 gap-8">
                 <!-- Brand & Deskripsi -->
                 <div>
-                    <div class="flex items-center space-x-2 mb-6">
+                    <div class="flex items-center space-x-3 mb-6">
                         <div class="gradient-accent text-white rounded-lg p-2 shadow-lg">
-                                <div class="rounded-lg p-0 shadow-lg group-hover:scale-105 transition-transform duration-300">
-        <img src="{{ asset('img/image.png') }}" alt="I.CO Logo" class="w-8 h-8 object-contain">
-    </div>
-    <div></div>
+                            <i class="fas fa-balance-scale text-xl"></i>
                         </div>
                         <div>
-
                             <span class="text-lg font-bold">KANTOR HUKUM</span>
-                            <div class="text-xs text-gray-300 -mt-1">DR. Parlindungan & Rekan</div>
+                            <div class="text-xs text-gray-300">DR. Parlindungan & Rekan</div>
                         </div>
                     </div>
                     <p class="text-gray-400 text-sm mb-6">
                         Solusi hukum terpercaya untuk individu, keluarga, dan perusahaan di Pekanbaru dan sekitarnya.
                     </p>
                     <div class="flex space-x-4">
-                        <a href="https://wa.me/6281268123180" target="_blank" class="text-gray-400 hover:text-accent transition">
+                        <a href="https://wa.me/6281268123180" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-accent transition">
                             <i class="fab fa-whatsapp text-xl"></i>
                         </a>
-                        <a href="https://www.instagram.com/parlindungan.riau/" target="_blank" class="text-gray-400 hover:text-accent transition">
+                        <a href="https://www.instagram.com/parlindungan.riau/" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-accent transition">
                             <i class="fab fa-instagram text-xl"></i>
                         </a>
-                        <a href="https://www.tiktok.com/@advokat_parlindungan" target="_blank" class="text-gray-400 hover:text-accent transition">
+                        <a href="https://www.tiktok.com/@advokat_parlindungan" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-accent transition">
                             <i class="fab fa-tiktok text-xl"></i>
                         </a>
                     </div>
@@ -522,10 +493,10 @@
                 <div>
                     <h4 class="text-lg font-bold mb-6">Menu Utama</h4>
                     <ul class="space-y-3 text-gray-400 text-sm">
-                        <li><a href="#home" class="hover:text-accent transition">Beranda</a></li>
-                        <li><a href="#layanan" class="hover:text-accent transition">Layanan</a></li>
-                        <li><a href="#tentang" class="hover:text-accent transition">Tentang Kami</a></li>
-                        <li><a href="#kontak" class="hover:text-accent transition">Kontak</a></li>
+                        <li><a href="/" class="hover:text-accent transition">Beranda</a></li>
+                        <li><a href="layanan-unggulan" class="hover:text-accent transition">Layanan</a></li>
+                        <li><a href="tentang-kami" class="hover:text-accent transition">Tentang Kami</a></li>
+                        <li><a href="hubungi-kami" class="hover:text-accent transition">Kontak</a></li>
                     </ul>
                 </div>
 
@@ -566,7 +537,6 @@
             </div>
         </div>
     </footer>
-
         <!-- JavaScript -->
     <script>
     document.addEventListener('DOMContentLoaded', () => {

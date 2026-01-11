@@ -18,10 +18,10 @@
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://drparlindungan.com/">
+<meta property="og:url" content="https://advokatparlindungan.com">
 <meta property="og:title" content="Kantor Hukum DR. Parlindungan, SH. MH. CLA. & Rekan - Advokat Terpercaya Pekanbaru">
 <meta property="og:description" content="Layanan hukum profesional di Pekanbaru dan Riau. Advokat berpengalaman menangani kasus pidana, perdata, bisnis, properti, dan hukum keluarga.">
-<meta property="og:image" content="{{ asset('img/og-image.jpg') }}">
+<meta property="og:image" content="{{ asset('img/image.png') }}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="id_ID">
@@ -33,10 +33,10 @@
 <meta name="twitter:creator" content="@parlindungan_riau">
 <meta name="twitter:title" content="Kantor Hukum DR. Parlindungan - Advokat Pekanbaru">
 <meta name="twitter:description" content="Solusi hukum terpercaya untuk individu dan bisnis di Pekanbaru. Konsultasi hukum gratis via WhatsApp.">
-<meta name="twitter:image" content="{{ asset('img/twitter-image.jpg') }}">
+<meta name="twitter:image" content="{{ asset('img/image.png') }}">
 
 <!-- Canonical URL -->
-<link rel="canonical" href="https://drparlindungan.com/">
+<link rel="canonical" href="https://advokatparlindungan.com">
 
 <!-- Structured Data / Schema.org -->
 
