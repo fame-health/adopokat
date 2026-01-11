@@ -40,57 +40,7 @@
 <link rel="canonical" href="https://drparlindungan.com/">
 
 <!-- Structured Data / Schema.org -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LegalService",
-  "name": "Kantor Hukum DR. Parlindungan, SH. MH. CLA. & Rekan",
-  "description": "Firma hukum profesional yang menyediakan layanan konsultasi dan pendampingan hukum di Pekanbaru, Riau.",
-  "url": "https://drparlindungan.com",
-  "telephone": "+6281268123180",
-  "email": "pengacaraparlindungan@gmail.com",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Jl. Meranti, No. 46, Kelurahan Labuh Baru Timur",
-    "addressLocality": "Pekanbaru",
-    "addressRegion": "Riau",
-    "postalCode": "28292",
-    "addressCountry": "ID"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": "0.5065616",
-    "longitude": "101.3756855"
-  },
-  "areaServed": {
-    "@type": "State",
-    "name": "Riau"
-  },
-  "openingHours": "Mo-Fr 08:00-17:00, Sa 09:00-13:00",
-  "priceRange": "$$",
-  "image": "{{ asset('img/gambar.png') }}",
-  "founder": {
-    "@type": "Person",
-    "name": "DR. Parlindungan, SH. MH. CLA.",
-    "jobTitle": "Advokat & Konsultan Hukum",
-    "description": "Advokat berpengalaman dengan latar belakang pendidikan Doktor Hukum dan sertifikasi Certified Legal Auditor."
-  },
-  "serviceType": [
-    "Hukum Pidana",
-    "Hukum Perdata",
-    "Hukum Bisnis",
-    "Hukum Properti",
-    "Hukum Keluarga",
-    "Hukum Ketenagakerjaan"
-  ],
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "reviewCount": "120",
-    "bestRating": "5"
-  }
-}
-</script>
+
 
 <!-- Additional Meta Tags -->
 <meta name="geo.region" content="ID-RI">
