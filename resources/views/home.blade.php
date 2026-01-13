@@ -164,7 +164,7 @@ accent: '#f87171',       /* soft merah */
 
 
                 <div class="hidden lg:flex items-center space-x-6">
-                    <a href="home" class="text-primary text-sm font-semibold hover:text-accent transition-colors relative group">
+                    <a href="/" class="text-primary text-sm font-semibold hover:text-accent transition-colors relative group">
                         Beranda
                         <span class="absolute bottom-0 left-0 w-full h-0.5 bg-accent"></span>
                     </a>
@@ -192,7 +192,7 @@ accent: '#f87171',       /* soft merah */
             </div>
 
             <div id="mobile-menu" class="hidden lg:hidden pb-4 space-y-1">
-                <a href="home" class="block py-2 text-sm text-primary font-semibold bg-accent/10 px-3 rounded-lg">Beranda</a>
+                <a href="/" class="block py-2 text-sm text-primary font-semibold bg-accent/10 px-3 rounded-lg">Beranda</a>
                 <a href="layanan-unggulan" class="block py-2 text-sm text-gray-700 hover:bg-accent/10 px-3 rounded-lg transition">Layanan</a>
                 <a href="tentang-kami" class="block py-2 text-sm text-gray-700 hover:bg-accent/10 px-3 rounded-lg transition">Tentang</a>
                 <a href="hubungi-kami" class="block py-2 text-sm text-gray-700 hover:bg-accent/10 px-3 rounded-lg transition">Kontak</a>
