@@ -395,7 +395,134 @@
             </div>
         </div>
     </section>
+<!-- Kontak Section -->
+<section id="kontak" class="py-12 md:py-20 bg-white overflow-hidden w-full">
+    <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 w-full">
+        <div class="text-center mb-10 w-full">
+            <span class="text-accent font-semibold text-xs uppercase tracking-wider">Hubungi Kami</span>
+            <h2 class="text-2xl md:text-4xl font-bold text-primary mt-2">Konsultasikan Masalah Hukum Anda</h2>
+            <div class="w-16 h-1 gradient-accent mx-auto mt-3 rounded-full"></div>
+            <p class="text-gray-600 mt-4 text-sm md:text-base max-w-2xl mx-auto">Kami siap memberikan solusi hukum terbaik. Jangan ragu untuk menghubungi kami melalui saluran di bawah ini.</p>
+        </div>
 
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 w-full">
+            <div class="space-y-4 w-full order-2 lg:order-1">
+
+                <div class="bg-gray-50 p-5 rounded-2xl border-l-4 border-accent shadow-sm w-full">
+                    <div class="flex items-start">
+                        <div class="bg-accent/10 p-3 rounded-lg text-accent mr-4 flex-shrink-0">
+                            <i class="fas fa-map-marker-alt text-lg"></i>
+                        </div>
+                        <div class="min-w-0 flex-1">
+                            <h4 class="font-bold text-primary mb-1 text-sm">Kantor Pusat</h4>
+                            <p class="text-xs text-gray-600 leading-relaxed">Jl. Meranti, No. 46, Kelurahan Labuh Baru Timur, Kecamatan Payung Sekaki, Kota Pekanbaru, Provinsi Riau</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gray-50 p-5 rounded-2xl border-l-4 border-primary shadow-sm w-full">
+                    <div class="flex items-start">
+                        <div class="bg-primary/10 p-3 rounded-lg text-primary mr-4 flex-shrink-0">
+                            <i class="fab fa-whatsapp text-lg"></i>
+                        </div>
+                        <div class="min-w-0 flex-1">
+                            <h4 class="font-bold text-primary mb-1 text-sm">WhatsApp</h4>
+                            <p class="text-sm text-gray-700 font-medium">+62 812-6812-3180</p>
+                            <a href="https://wa.me/6281268123180" target="_blank" class="text-xs text-accent font-semibold hover:underline mt-1 inline-block">Kirim Pesan Sekarang →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gray-50 p-5 rounded-2xl border-l-4 border-accent shadow-sm w-full">
+                    <div class="flex items-start">
+                        <div class="bg-accent/10 p-3 rounded-lg text-accent mr-4 flex-shrink-0">
+                            <i class="fas fa-envelope text-lg"></i>
+                        </div>
+                        <div class="min-w-0 flex-1">
+                            <h4 class="font-bold text-primary mb-1 text-sm">Email</h4>
+                            <p class="text-xs text-gray-600 break-all">pengacaraparlindungan@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-primary text-white p-6 rounded-2xl shadow-lg w-full">
+                    <h4 class="font-bold mb-4 flex items-center text-sm">
+                        <i class="fas fa-clock mr-2 text-accent-light"></i> Jam Operasional
+                    </h4>
+                    <div class="space-y-3 text-xs opacity-90">
+                        <div class="flex justify-between border-b border-white/10 pb-2">
+                            <span>Senin - Jumat</span>
+                            <span class="font-semibold">08:00 - 17:00</span>
+                        </div>
+                        <div class="flex justify-between border-b border-white/10 pb-2">
+                            <span>Sabtu</span>
+                            <span class="font-semibold">09:00 - 13:00</span>
+                        </div>
+                        <div class="flex justify-between text-orange-300">
+                            <span>Minggu</span>
+                            <span class="font-semibold">Tutup (Janji Temu)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:col-span-2 w-full order-1 lg:order-2">
+                <div class="bg-white p-6 sm:p-8 rounded-3xl border border-gray-100 shadow-xl w-full">
+                    <form action="#" method="POST" class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
+                        <div class="space-y-1.5">
+                            <label class="text-xs font-bold text-gray-700 ml-1">Nama Lengkap</label>
+                            <input type="text" name="nama" placeholder="Masukkan nama Anda" class="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/10 outline-none text-sm" required>
+                        </div>
+
+                        <div class="space-y-1.5">
+                            <label class="text-xs font-bold text-gray-700 ml-1">Alamat Email</label>
+                            <input type="email" name="email" placeholder="contoh@email.com" class="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/10 outline-none text-sm" required>
+                        </div>
+
+                        <div class="space-y-1.5">
+                            <label class="text-xs font-bold text-gray-700 ml-1">Nomor WhatsApp</label>
+                            <input type="tel" name="phone" placeholder="0812..." class="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/10 outline-none text-sm" required>
+                        </div>
+
+                        <div class="space-y-1.5">
+                            <label class="text-xs font-bold text-gray-700 ml-1">Subjek Kasus</label>
+                            <select name="subjek" class="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/10 outline-none text-sm">
+                                <option>Hukum Pidana</option>
+                                <option>Hukum Perdata</option>
+                                <option>Sengketa Tanah / PTUN</option>
+                                <option>Hukum Keluarga & Waris</option>
+                                <option>Lainnya</option>
+                            </select>
+                        </div>
+
+                        <div class="md:col-span-2 space-y-1.5">
+                            <label class="text-xs font-bold text-gray-700 ml-1">Pesan / Konsultasi Singkat</label>
+                            <textarea name="pesan" rows="4" placeholder="Jelaskan secara singkat..." class="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/10 outline-none text-sm" required></textarea>
+                        </div>
+
+                        <div class="md:col-span-2 pt-2">
+                            <button type="submit" class="w-full bg-primary text-white font-bold py-4 rounded-xl shadow-lg active:scale-95 transition-all flex items-center justify-center space-x-2 hover:bg-opacity-90">
+                                <i class="fas fa-paper-plane text-xs"></i>
+                                <span>Kirim Pesan Konsultasi</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-12 w-full rounded-3xl overflow-hidden shadow-2xl border border-gray-100 h-[350px] md:h-[500px]">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.658721245059!2d101.416805!3d0.525278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d5ac0000000000%3A0x0!2zMMKwMzEnMzEuMCJOIDEwMcKwMjUnMDAuNSJF!5e0!3m2!1sid!2sid!4v1715678901234!5m2!1sid!2sid"
+                class="w-full h-full"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+</section>
 
 
     <!-- Footer -->
