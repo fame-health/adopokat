@@ -8,79 +8,72 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <meta name="description" content="Kantor Hukum DR. Parlindungan, SH. MH. CLA. & Rekan - Layanan hukum profesional di Pekanbaru. Konsultasi hukum, litigasi, dan pendampingan hukum terpercaya.">
-    <meta name="keywords" content="advokat pekanbaru, pengacara riau, kantor hukum pekanbaru, konsultasi hukum, litigasi, parlindungan advokat">
-    <meta name="author" content="DR. Parlindungan, SH. MH. CLA.">
-    <!-- Meta Tags yang Diperbarui (letakkan dalam <head> setelah title) -->
-<meta name="description" content="Kantor Hukum DR. Parlindungan, SH. MH. CLA. & Rekan - Advokat dan Konsultan Hukum Profesional di Pekanbaru. Layanan Hukum Pidana, Perdata, Bisnis, Properti, dan Keluarga. Konsultasi Hukum Gratis.">
-<meta name="keywords" content="advokat pekanbaru, pengacara riau, hukum pekanbaru, konsultan hukum, lawyer riau, kuasa hukum, bantuan hukum, pengacara pidana, hukum perdata, sengketa tanah, hukum keluarga, firma hukum pekanbaru, dr parlindungan">
-<meta name="author" content="DR. Parlindungan, SH. MH. CLA., Advokat">
-<meta name="robots" content="index, follow">
-<meta name="language" content="Indonesian">
-<meta name="revisit-after" content="7 days">
-<meta name="rating" content="general">
+    <!-- Meta Tags -->
+    <meta name="description" content="Kantor Hukum DR. Parlindungan, SH. MH. CLA. & Rekan - Advokat dan Konsultan Hukum Profesional di Pekanbaru. Layanan Hukum Pidana, Perdata, Bisnis, Properti, dan Keluarga. Konsultasi Hukum Gratis.">
+    <meta name="keywords" content="advokat pekanbaru, pengacara riau, hukum pekanbaru, konsultan hukum, lawyer riau, kuasa hukum, bantuan hukum, pengacara pidana, hukum perdata, sengketa tanah, hukum keluarga, firma hukum pekanbaru, dr parlindungan">
+    <meta name="author" content="DR. Parlindungan, SH. MH. CLA., Advokat">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Indonesian">
+    <meta name="revisit-after" content="7 days">
+    <meta name="rating" content="general">
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://advokatparlindungan.com">
-<meta property="og:title" content="Kantor Hukum DR. Parlindungan, SH. MH. CLA. & Rekan - Advokat Terpercaya Pekanbaru">
-<meta property="og:description" content="Layanan hukum profesional di Pekanbaru dan Riau. Advokat berpengalaman menangani kasus pidana, perdata, bisnis, properti, dan hukum keluarga.">
-<meta property="og:image" content="{{ asset('img/image.png') }}">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:locale" content="id_ID">
-<meta property="og:site_name" content="Kantor Hukum DR. Parlindungan & Rekan">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://advokatparlindungan.com">
+    <meta property="og:title" content="Kantor Hukum DR. Parlindungan, SH. MH. CLA. & Rekan - Advokat Terpercaya Pekanbaru">
+    <meta property="og:description" content="Layanan hukum profesional di Pekanbaru dan Riau. Advokat berpengalaman menangani kasus pidana, perdata, bisnis, properti, dan hukum keluarga.">
+    <meta property="og:image" content="{{ asset('img/image.png') }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="id_ID">
+    <meta property="og:site_name" content="Kantor Hukum DR. Parlindungan & Rekan">
 
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@parlindungan_riau">
-<meta name="twitter:creator" content="@parlindungan_riau">
-<meta name="twitter:title" content="Kantor Hukum DR. Parlindungan - Advokat Pekanbaru">
-<meta name="twitter:description" content="Solusi hukum terpercaya untuk individu dan bisnis di Pekanbaru. Konsultasi hukum gratis via WhatsApp.">
-<meta name="twitter:image" content="{{ asset('img/image.png') }}">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@parlindungan_riau">
+    <meta name="twitter:creator" content="@parlindungan_riau">
+    <meta name="twitter:title" content="Kantor Hukum DR. Parlindungan - Advokat Pekanbaru">
+    <meta name="twitter:description" content="Solusi hukum terpercaya untuk individu dan bisnis di Pekanbaru. Konsultasi hukum gratis via WhatsApp.">
+    <meta name="twitter:image" content="{{ asset('img/image.png') }}">
 
-<!-- Canonical URL -->
-<link rel="canonical" href="https://advokatparlindungan.com">
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://advokatparlindungan.com">
 
-<!-- Structured Data / Schema.org -->
+    <!-- Additional Meta Tags -->
+    <meta name="geo.region" content="ID-RI">
+    <meta name="geo.placename" content="Pekanbaru">
+    <meta name="geo.position" content="0.5065616;101.3756855">
+    <meta name="ICBM" content="0.5065616, 101.3756855">
+    <meta name="distribution" content="global">
+    <meta name="target" content="all">
+    <meta name="apple-mobile-web-app-title" content="DR. Parlindungan Law Firm">
+    <meta name="application-name" content="Kantor Hukum Parlindungan">
+    <meta name="msapplication-TileColor" content="#1e3a8a">
+    <meta name="theme-color" content="#1e3a8a">
 
+    <!-- Viewport tambahan untuk mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="format-detection" content="telephone=yes">
 
-<!-- Additional Meta Tags -->
-<meta name="geo.region" content="ID-RI">
-<meta name="geo.placename" content="Pekanbaru">
-<meta name="geo.position" content="0.5065616;101.3756855">
-<meta name="ICBM" content="0.5065616, 101.3756855">
-<meta name="distribution" content="global">
-<meta name="target" content="all">
-<meta name="apple-mobile-web-app-title" content="DR. Parlindungan Law Firm">
-<meta name="application-name" content="Kantor Hukum Parlindungan">
-<meta name="msapplication-TileColor" content="#1e3a8a">
-<meta name="theme-color" content="#1e3a8a">
-
-<!-- Viewport tambahan untuk mobile -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
-<meta name="format-detection" content="telephone=yes">
-
-<!-- Dublin Core Metadata -->
-<meta name="DC.title" content="Kantor Hukum DR. Parlindungan - Advokat Pekanbaru">
-<meta name="DC.creator" content="DR. Parlindungan, SH. MH. CLA.">
-<meta name="DC.subject" content="Hukum, Advokat, Pengacara, Konsultan Hukum">
-<meta name="DC.description" content="Layanan hukum profesional di Pekanbaru">
-<meta name="DC.publisher" content="Kantor Hukum DR. Parlindungan & Rekan">
-<meta name="DC.date" content="2026-01-11">
+    <!-- Dublin Core Metadata -->
+    <meta name="DC.title" content="Kantor Hukum DR. Parlindungan - Advokat Pekanbaru">
+    <meta name="DC.creator" content="DR. Parlindungan, SH. MH. CLA.">
+    <meta name="DC.subject" content="Hukum, Advokat, Pengacara, Konsultan Hukum">
+    <meta name="DC.description" content="Layanan hukum profesional di Pekanbaru">
+    <meta name="DC.publisher" content="Kantor Hukum DR. Parlindungan & Rekan">
+    <meta name="DC.date" content="2026-01-11">
 
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
-primary: '#1e3a8a',
-'primary-light': '#3b82f6',
-'primary-dark': '#1e40af',
-accent: '#f87171',       /* soft merah */
-'accent-light': '#fca5a5', /* lebih terang & lembut */
-'accent-dark': '#b45353'   /* lebih gelap tapi soft */
-
+                        primary: '#1e3a8a',
+                        'primary-light': '#3b82f6',
+                        'primary-dark': '#1e40af',
+                        accent: '#f87171',
+                        'accent-light': '#fca5a5',
+                        'accent-dark': '#b45353'
                     },
                     fontFamily: {
                         'poppins': ['Poppins', 'sans-serif']
@@ -153,15 +146,14 @@ accent: '#f87171',       /* soft merah */
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center py-3">
                 <div class="flex items-center space-x-4 group">
-    <div class="rounded-lg p-2 shadow-lg group-hover:scale-105 transition-transform duration-300">
-        <img src="{{ asset('img/image.png') }}" alt="I.CO Logo" class="w-10 h-10 object-contain">
-    </div>
-    <div>
-        <span class="text-xl font-bold text-primary">KANTOR HUKUM</span>
-        <div class="text-xs text-gray-600 -mt-1 font-semibold">DR. Parlindungan, SH. MH. CLA. & Rekan</div>
-    </div>
-</div>
-
+                    <div class="rounded-lg p-2 shadow-lg group-hover:scale-105 transition-transform duration-300">
+                        <img src="{{ asset('img/image.png') }}" alt="I.CO Logo" class="w-10 h-10 object-contain">
+                    </div>
+                    <div>
+                        <span class="text-xl font-bold text-primary">KANTOR HUKUM</span>
+                        <div class="text-xs text-gray-600 -mt-1 font-semibold">DR. Parlindungan, SH. MH. CLA. & Rekan</div>
+                    </div>
+                </div>
 
                 <div class="hidden lg:flex items-center space-x-6">
                     <a href="/" class="text-primary text-sm font-semibold hover:text-accent transition-colors relative group">
@@ -223,9 +215,9 @@ accent: '#f87171',       /* soft merah */
                         Solusi <span class="gradient-accent bg-clip-text text-transparent">Hukum Terbaik</span> untuk Anda
                     </h1>
                     <p class="text-base text-gray-300 leading-relaxed">
-                       Kami memberikan layanan hukum profesional dengan pendekatan yang personal.
-    Setiap kasus ditangani dengan fokus pada hasil terbaik untuk klien.
-    Komitmen kami adalah memberikan solusi hukum yang efektif, terpercaya, dan sesuai kebutuhan Anda.
+                        Kami memberikan layanan hukum profesional dengan pendekatan yang personal.
+                        Setiap kasus ditangani dengan fokus pada hasil terbaik untuk klien.
+                        Komitmen kami adalah memberikan solusi hukum yang efektif, terpercaya, dan sesuai kebutuhan Anda.
                     </p>
                     <div class="flex flex-wrap gap-3">
                         <a href="https://wa.me/6281268123180" target="_blank" class="gradient-accent shine-effect text-white text-sm font-bold px-6 py-3 rounded-xl shadow-2xl hover:shadow-accent/50 transform hover:scale-105 transition-all duration-300">
@@ -271,7 +263,7 @@ accent: '#f87171',       /* soft merah */
         <div class="bg-gray-50 h-12 -mb-6 rounded-t-[40px]"></div>
     </section>
 
-        <!-- Tentang Kami Section -->
+    <!-- Tentang Kami Section -->
     <section id="tentang" class="py-16 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-2 gap-12 items-center">
@@ -284,7 +276,7 @@ accent: '#f87171',       /* soft merah */
                         Kantor Hukum DR. Parlindungan, SH. MH. CLA. & Rekan adalah firma hukum yang berlokasi di Pekanbaru, Riau. Kami memiliki komitmen tinggi dalam memberikan layanan hukum terbaik dengan pendekatan profesional dan berintegritas.
                     </p>
                     <p class="text-gray-600 text-sm mb-6 leading-relaxed">
-                        Dipimpin oleh DR. Parlindungan, SH. MH. CLA., seorang advokat berpengalaman dengan latar belakang pendidikan hukum yang solid, kami siap membantu menyelesaikan berbagai permasalahan hukum Anda dengan solusi yang tepat dan efektif.
+                        Dipimpin oleh DR. Parlindungan, SH. MH. CLA., seorang Advokat berpengalaman, dosen di sejumlah perguruan tinggi di Riau, dan mantan wartawan ini, dengan berlatar pendidikan hukum yang solid, kami siap membantu menyelesaikan berbagai permasalahan hukum Anda dengan solusi yang tepat dan efektif.
                     </p>
 
                     <div class="grid grid-cols-2 gap-4 mb-6">
@@ -319,23 +311,22 @@ accent: '#f87171',       /* soft merah */
                     </div>
                 </div>
 
-<div class="relative order-1 lg:order-2">
-    <div class="absolute -inset-4 gradient-accent opacity-20 blur-3xl rounded-full"></div>
+                <div class="relative order-1 lg:order-2">
+                    <div class="absolute -inset-4 gradient-accent opacity-20 blur-3xl rounded-full"></div>
 
-    <div class="relative z-10">
-        <img
-            src="{{ asset('img/gambar.png') }}"
-            alt="DR. Parlindungan"
-            class="w-full max-w-md mx-auto rounded-2xl shadow-2xl hover:scale-[1.02] transition-transform duration-500"
->
-    </div>
+                    <div class="relative z-10">
+                        <img
+                            src="{{ asset('img/gambar.png') }}"
+                            alt="DR. Parlindungan"
+                            class="w-full max-w-md mx-auto rounded-2xl shadow-2xl hover:scale-[1.02] transition-transform duration-500"
+                        >
+                    </div>
 
-    <div class="absolute -bottom-8 -left-8 gradient-dark text-white p-6 rounded-2xl shadow-2xl z-20 hover:scale-105 transition-transform duration-300">
-
-        <div class="text-base mt-1">DR. PARLINDUNGAN, SH. MH. </div>
-        <div class="text-xs text-gray-400 mt-0.5">Kantor Hukum Dr. Parlindungan, SH. MH. & Rekan</div>
-    </div>
-</div>
+                    <div class="absolute -bottom-8 -left-8 gradient-dark text-white p-6 rounded-2xl shadow-2xl z-20 hover:scale-105 transition-transform duration-300">
+                        <div class="text-base mt-1">DR. PARLINDUNGAN, SH. MH. </div>
+                        <div class="text-xs text-gray-400 mt-0.5">Kantor Hukum Dr. Parlindungan, SH. MH. & Rekan</div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -405,142 +396,142 @@ accent: '#f87171',       /* soft merah */
         </div>
     </section>
 
-
+    <!-- Kontak Section -->
     <section id="kontak" class="py-20 bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-16">
-            <span class="text-accent font-semibold text-xs uppercase tracking-wider">Hubungi Kami</span>
-            <h2 class="text-3xl md:text-4xl font-bold text-primary mt-2">Konsultasikan Masalah Hukum Anda</h2>
-            <div class="w-20 h-1.5 gradient-accent mx-auto mt-4 rounded-full"></div>
-            <p class="text-gray-600 mt-4 max-w-2xl mx-auto">Kami siap memberikan solusi hukum terbaik. Jangan ragu untuk menghubungi kami melalui saluran di bawah ini.</p>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-accent font-semibold text-xs uppercase tracking-wider">Hubungi Kami</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mt-2">Konsultasikan Masalah Hukum Anda</h2>
+                <div class="w-20 h-1.5 gradient-accent mx-auto mt-4 rounded-full"></div>
+                <p class="text-gray-600 mt-4 max-w-2xl mx-auto">Kami siap memberikan solusi hukum terbaik. Jangan ragu untuk menghubungi kami melalui saluran di bawah ini.</p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-8">
+                <div class="lg:col-span-1 space-y-6">
+                    <div class="bg-gray-50 p-6 rounded-2xl border-l-4 border-accent shadow-sm hover:shadow-md transition-shadow">
+                        <div class="flex items-start">
+                            <div class="bg-accent/10 p-3 rounded-lg text-accent mr-4">
+                                <i class="fas fa-map-marker-alt text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-primary mb-1">Kantor Pusat</h4>
+                                <p class="text-sm text-gray-600 leading-relaxed">Jl. Meranti, No. 46, Kelurahan Labuh Baru Timur, Kecamatan Payung Sekaki, Kota Pekanbaru, Provinsi Riau</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-2xl border-l-4 border-primary shadow-sm hover:shadow-md transition-shadow">
+                        <div class="flex items-start">
+                            <div class="bg-primary/10 p-3 rounded-lg text-primary mr-4">
+                                <i class="fab fa-whatsapp text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-primary mb-1">WhatsApp</h4>
+                                <p class="text-sm text-gray-600">+62 812-6812-3180</p>
+                                <a href="https://wa.me/+6281268123180" class="text-xs text-accent font-semibold hover:underline mt-2 inline-block">Kirim Pesan Sekarang →</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-2xl border-l-4 border-accent shadow-sm hover:shadow-md transition-shadow">
+                        <div class="flex items-start">
+                            <div class="bg-accent/10 p-3 rounded-lg text-accent mr-4">
+                                <i class="fas fa-envelope text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-primary mb-1">Email</h4>
+                                <p class="text-sm text-gray-600">pengacaraparlindungan@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-primary text-white p-6 rounded-2xl shadow-xl">
+                        <h4 class="font-bold mb-4 flex items-center">
+                            <i class="fas fa-clock mr-2"></i> Jam Operasional
+                        </h4>
+                        <div class="space-y-2 text-sm opacity-90">
+                            <div class="flex justify-between"><span>Senin - Jumat</span><span>08:00 - 17:00</span></div>
+                            <div class="flex justify-between"><span>Sabtu</span><span>09:00 - 13:00</span></div>
+                            <div class="flex justify-between text-accent-light"><span>Minggu</span><span>Tutup (Janji Temu)</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-2">
+                    <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-2xl">
+                        <form action="#" method="POST" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div class="space-y-2">
+                                <label class="text-sm font-semibold text-gray-700">Nama Lengkap</label>
+                                <div class="relative">
+                                    <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-400">
+                                        <i class="fas fa-user text-xs"></i>
+                                    </span>
+                                    <input type="text" placeholder="Masukkan nama Anda" class="w-full pl-10 pr-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all text-sm">
+                                </div>
+                            </div>
+
+                            <div class="space-y-2">
+                                <label class="text-sm font-semibold text-gray-700">Alamat Email</label>
+                                <div class="relative">
+                                    <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-400">
+                                        <i class="fas fa-envelope text-xs"></i>
+                                    </span>
+                                    <input type="email" placeholder="contoh@email.com" class="w-full pl-10 pr-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all text-sm">
+                                </div>
+                            </div>
+
+                            <div class="space-y-2">
+                                <label class="text-sm font-semibold text-gray-700">Nomor WhatsApp</label>
+                                <div class="relative">
+                                    <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-400">
+                                        <i class="fab fa-whatsapp text-sm"></i>
+                                    </span>
+                                    <input type="tel" placeholder="0812..." class="w-full pl-10 pr-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all text-sm">
+                                </div>
+                            </div>
+
+                            <div class="space-y-2">
+                                <label class="text-sm font-semibold text-gray-700">Subjek Kasus</label>
+                                <div class="relative">
+                                    <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-400">
+                                        <i class="fas fa-gavel text-xs"></i>
+                                    </span>
+                                    <select class="w-full pl-10 pr-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all appearance-none text-sm">
+                                        <option>Hukum Pidana</option>
+                                        <option>Hukum Perdata</option>
+                                        <option>Sengketa Tanah / PTUN</option>
+                                        <option>Hukum Keluarga & Waris</option>
+                                        <option>Lainnya</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="md:col-span-2 space-y-2">
+                                <label class="text-sm font-semibold text-gray-700">Pesan / Konsultasi Singkat</label>
+                                <textarea rows="4" placeholder="Jelaskan secara singkat permasalahan hukum Anda..." class="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all text-sm"></textarea>
+                            </div>
+
+                            <div class="md:col-span-2">
+                                <button type="submit" class="w-full gradient-dark text-white font-bold py-4 rounded-xl shadow-lg hover:shadow-primary/30 transition-all hover:-translate-y-1 flex items-center justify-center space-x-2">
+                                    <i class="fas fa-paper-plane"></i>
+                                    <span>Kirim Pesan Konsultasi</span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 rounded-3xl overflow-hidden shadow-inner border-4 border-gray-50 h-[400px]">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127669.04824364287!2d101.3756854580664!3d0.5065615999999974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d5ab92197607d1%3A0xa63d274646a78917!2sPekanbaru%2C%20Riau!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid"
+                    class="w-full h-full border-0"
+                    allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+            </div>
         </div>
-
-        <div class="grid lg:grid-cols-3 gap-8">
-            <div class="lg:col-span-1 space-y-6">
-                <div class="bg-gray-50 p-6 rounded-2xl border-l-4 border-accent shadow-sm hover:shadow-md transition-shadow">
-                    <div class="flex items-start">
-                        <div class="bg-accent/10 p-3 rounded-lg text-accent mr-4">
-                            <i class="fas fa-map-marker-alt text-xl"></i>
-                        </div>
-                        <div>
-                            <h4 class="font-bold text-primary mb-1">Kantor Pusat</h4>
-                            <p class="text-sm text-gray-600 leading-relaxed">Jl. Meranti, No. 46, Kelurahan Labuh Baru Timur, Kecamatan Payung Sekaki, Kota Pekanbaru, Provinsi Riau</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-gray-50 p-6 rounded-2xl border-l-4 border-primary shadow-sm hover:shadow-md transition-shadow">
-                    <div class="flex items-start">
-                        <div class="bg-primary/10 p-3 rounded-lg text-primary mr-4">
-                            <i class="fab fa-whatsapp text-xl"></i>
-                        </div>
-                        <div>
-                            <h4 class="font-bold text-primary mb-1">WhatsApp</h4>
-                            <p class="text-sm text-gray-600">+62 812-6812-3180</p>
-                            <a href="https://wa.me/+6281268123180" class="text-xs text-accent font-semibold hover:underline mt-2 inline-block">Kirim Pesan Sekarang →</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-gray-50 p-6 rounded-2xl border-l-4 border-accent shadow-sm hover:shadow-md transition-shadow">
-                    <div class="flex items-start">
-                        <div class="bg-accent/10 p-3 rounded-lg text-accent mr-4">
-                            <i class="fas fa-envelope text-xl"></i>
-                        </div>
-                        <div>
-                            <h4 class="font-bold text-primary mb-1">Email</h4>
-                            <p class="text-sm text-gray-600">pengacaraparlindungan@gmail.com</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-primary text-white p-6 rounded-2xl shadow-xl">
-                    <h4 class="font-bold mb-4 flex items-center">
-                        <i class="fas fa-clock mr-2"></i> Jam Operasional
-                    </h4>
-                    <div class="space-y-2 text-sm opacity-90">
-                        <div class="flex justify-between"><span>Senin - Jumat</span><span>08:00 - 17:00</span></div>
-                        <div class="flex justify-between"><span>Sabtu</span><span>09:00 - 13:00</span></div>
-                        <div class="flex justify-between text-accent-light"><span>Minggu</span><span>Tutup (Janji Temu)</span></div>
-                    </div>
-                </div>
-            </div>
-
-<div class="lg:col-span-2">
-    <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-2xl">
-        <form action="#" method="POST" class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div class="space-y-2">
-                <label class="text-sm font-semibold text-gray-700">Nama Lengkap</label>
-                <div class="relative">
-                    <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-400">
-                        <i class="fas fa-user text-xs"></i>
-                    </span>
-                    <input type="text" placeholder="Masukkan nama Anda" class="w-full pl-10 pr-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all text-sm">
-                </div>
-            </div>
-
-            <div class="space-y-2">
-                <label class="text-sm font-semibold text-gray-700">Alamat Email</label>
-                <div class="relative">
-                    <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-400">
-                        <i class="fas fa-envelope text-xs"></i>
-                    </span>
-                    <input type="email" placeholder="contoh@email.com" class="w-full pl-10 pr-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all text-sm">
-                </div>
-            </div>
-
-            <div class="space-y-2">
-                <label class="text-sm font-semibold text-gray-700">Nomor WhatsApp</label>
-                <div class="relative">
-                    <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-400">
-                        <i class="fab fa-whatsapp text-sm"></i>
-                    </span>
-                    <input type="tel" placeholder="0812..." class="w-full pl-10 pr-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all text-sm">
-                </div>
-            </div>
-
-            <div class="space-y-2">
-                <label class="text-sm font-semibold text-gray-700">Subjek Kasus</label>
-                <div class="relative">
-                    <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-400">
-                        <i class="fas fa-gavel text-xs"></i>
-                    </span>
-                    <select class="w-full pl-10 pr-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all appearance-none text-sm">
-                        <option>Hukum Pidana</option>
-                        <option>Hukum Perdata</option>
-                        <option>Sengketa Tanah / PTUN</option>
-                        <option>Hukum Keluarga & Waris</option>
-                        <option>Lainnya</option>
-                    </select>
-                </div>
-            </div>
-
-            <div class="md:col-span-2 space-y-2">
-                <label class="text-sm font-semibold text-gray-700">Pesan / Konsultasi Singkat</label>
-                <textarea rows="4" placeholder="Jelaskan secara singkat permasalahan hukum Anda..." class="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all text-sm"></textarea>
-            </div>
-
-            <div class="md:col-span-2">
-                <button type="submit" class="w-full gradient-dark text-white font-bold py-4 rounded-xl shadow-lg hover:shadow-primary/30 transition-all hover:-translate-y-1 flex items-center justify-center space-x-2">
-                    <i class="fas fa-paper-plane"></i>
-                    <span>Kirim Pesan Konsultasi</span>
-                </button>
-            </div>
-        </form>
-    </div>
-</div>
-        </div>
-
-        <div class="mt-12 rounded-3xl overflow-hidden shadow-inner border-4 border-gray-50 h-[400px]">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127669.04824364287!2d101.3756854580664!3d0.5065615999999974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d5ab92197607d1%3A0xa63d274646a78917!2sPekanbaru%2C%20Riau!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid"
-                class="w-full h-full border-0"
-                allowfullscreen=""
-                loading="lazy">
-            </iframe>
-        </div>
-    </div>
-</section>
+    </section>
 
     <!-- Footer -->
     <footer id="kontak" class="gradient-dark text-white pt-16 pb-8 relative overflow-hidden">
@@ -554,13 +545,12 @@ accent: '#f87171',       /* soft merah */
                 <div>
                     <div class="flex items-center space-x-2 mb-6">
                         <div class="gradient-accent text-white rounded-lg p-2 shadow-lg">
-                                <div class="rounded-lg p-0 shadow-lg group-hover:scale-105 transition-transform duration-300">
-        <img src="{{ asset('img/image.png') }}" alt="I.CO Logo" class="w-8 h-8 object-contain">
-    </div>
-    <div></div>
+                            <div class="rounded-lg p-0 shadow-lg group-hover:scale-105 transition-transform duration-300">
+                                <img src="{{ asset('img/image.png') }}" alt="I.CO Logo" class="w-8 h-8 object-contain">
+                            </div>
+                            <div></div>
                         </div>
                         <div>
-
                             <span class="text-lg font-bold">KANTOR HUKUM</span>
                             <div class="text-xs text-gray-300 -mt-1">DR. Parlindungan & Rekan</div>
                         </div>
@@ -630,84 +620,86 @@ accent: '#f87171',       /* soft merah */
         </div>
     </footer>
 
-        <!-- JavaScript -->
+    <!-- JavaScript -->
     <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        // ==================
-        // 1. Mobile Menu Toggle
-        // ==================
-        const mobileBtn = document.getElementById('mobile-menu-btn');
-        const mobileMenu = document.getElementById('mobile-menu');
+        document.addEventListener('DOMContentLoaded', () => {
+            // ==================
+            // 1. Mobile Menu Toggle
+            // ==================
+            const mobileBtn = document.getElementById('mobile-menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
 
-        if (mobileBtn && mobileMenu) {
-            mobileBtn.addEventListener('click', () => {
-                mobileMenu.classList.toggle('hidden');
+            if (mobileBtn && mobileMenu) {
+                mobileBtn.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
 
-                // Toggle icon hamburger ↔ times
-                const icon = mobileBtn.querySelector('i');
-                if (icon.classList.contains('fa-bars')) {
-                    icon.classList.remove('fa-bars');
-                    icon.classList.add('fa-times');
-                } else {
+                    // Toggle icon hamburger ↔ times
+                    const icon = mobileBtn.querySelector('i');
+                    if (icon.classList.contains('fa-bars')) {
+                        icon.classList.remove('fa-bars');
+                        icon.classList.add('fa-times');
+                    } else {
+                        icon.classList.remove('fa-times');
+                        icon.classList.add('fa-bars');
+                    }
+                });
+
+                // Auto close menu ketika link diklik (mobile)
+                const mobileLinks = mobileMenu.querySelectorAll('a');
+                mobileLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        // Reset icon ke hamburger
+                        const icon = mobileBtn.querySelector('i');
+                        icon.classList.remove('fa-times');
+                        icon.classList.add('fa-bars');
+                    });
+                });
+            }
+
+            // ==================
+            // 2. Smooth Scroll dengan offset navbar
+            // ==================
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+
+                    const targetId = this.getAttribute('href');
+                    if (!targetId || targetId === '#') return;
+
+                    const target = document.querySelector(targetId);
+                    if (!target) return;
+
+                    // Sesuaikan nilai ini dengan tinggi navbar Anda (termasuk shadow/margin)
+                    const navbarOffset = 90; // ±90px biasanya cukup untuk navbar fixed + shadow
+
+                    const elementPosition = target.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - navbarOffset;
+
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+                });
+            });
+
+            // ==================
+            // 3. Optional: Tutup mobile menu saat klik di luar area menu (extra UX)
+            // ==================
+            document.addEventListener('click', (e) => {
+                if (!mobileMenu || !mobileBtn) return;
+
+                const isClickInsideMenu = mobileMenu.contains(e.target);
+                const isClickOnButton = mobileBtn.contains(e.target);
+
+                if (!isClickInsideMenu && !isClickOnButton && !mobileMenu.classList.contains('hidden')) {
+                    mobileMenu.classList.add('hidden');
+                    const icon = mobileBtn.querySelector('i');
                     icon.classList.remove('fa-times');
                     icon.classList.add('fa-bars');
                 }
             });
-
-            // Auto close menu ketika link diklik (mobile)
-            const mobileLinks = mobileMenu.querySelectorAll('a');
-            mobileLinks.forEach(link => {
-                link.addEventListener('click', () => {
-                    mobileMenu.classList.add('hidden');
-                    // Reset icon ke hamburger
-                    const icon = mobileBtn.querySelector('i');
-                    icon.classList.remove('fa-times');
-                    icon.classList.add('fa-bars');
-                });
-            });
-        }
-
-        // ==================
-        // 2. Smooth Scroll dengan offset navbar
-        // ==================
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-
-                const targetId = this.getAttribute('href');
-                if (!targetId || targetId === '#') return;
-
-                const target = document.querySelector(targetId);
-                if (!target) return;
-
-                // Sesuaikan nilai ini dengan tinggi navbar Anda (termasuk shadow/margin)
-                const navbarOffset = 90; // ±90px biasanya cukup untuk navbar fixed + shadow
-
-                const elementPosition = target.getBoundingClientRect().top;
-                const offsetPosition = elementPosition + window.pageYOffset - navbarOffset;
-
-                window.scrollTo({
-                    top: offsetPosition,
-                    behavior: 'smooth'
-                });
-            });
         });
-
-        // ==================
-        // 3. Optional: Tutup mobile menu saat klik di luar area menu (extra UX)
-        // ==================
-        document.addEventListener('click', (e) => {
-            if (!mobileMenu || !mobileBtn) return;
-
-            const isClickInsideMenu = mobileMenu.contains(e.target);
-            const isClickOnButton = mobileBtn.contains(e.target);
-
-            if (!isClickInsideMenu && !isClickOnButton && !mobileMenu.classList.contains('hidden')) {
-                mobileMenu.classList.add('hidden');
-                const icon = mobileBtn.querySelector('i');
-                icon.classList.remove('fa-times');
-                icon.classList.add('fa-bars');
-            }
-        });
-    });
     </script>
+</body>
+</html>
