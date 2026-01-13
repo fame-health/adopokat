@@ -239,7 +239,7 @@ accent: '#f87171',       /* soft merah */
                     </div>
                     <div class="grid grid-cols-3 gap-5 pt-4">
                         <div class="text-center">
-                            <div class="text-3xl font-bold gradient-accent bg-clip-text text-transparent">15+</div>
+                            <div class="text-3xl font-bold gradient-accent bg-clip-text text-transparent">10+</div>
                             <div class="text-xs text-gray-400 mt-0.5">Tahun Pengalaman</div>
                         </div>
                         <div class="text-center">
@@ -271,72 +271,7 @@ accent: '#f87171',       /* soft merah */
         <div class="bg-gray-50 h-12 -mb-6 rounded-t-[40px]"></div>
     </section>
 
-    <!-- Layanan Section -->
-    <section id="layanan" class="py-16 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-12">
-                <span class="text-accent font-semibold text-xs uppercase tracking-wider">Layanan Kami</span>
-                <h2 class="text-3xl font-bold text-primary mb-4 mt-1">
-                    Bidang <span class="gradient-accent bg-clip-text text-transparent">Keahlian Hukum</span>
-                </h2>
-                <p class="text-gray-600 text-sm max-w-2xl mx-auto">
-                    Kami menyediakan berbagai layanan hukum untuk memenuhi kebutuhan Anda
-                </p>
-            </div>
-
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="bg-gradient-to-br from-primary/5 to-primary/10 p-6 rounded-xl hover-lift border border-primary/10">
-                    <div class="bg-primary text-white p-4 rounded-lg inline-block mb-4">
-                        <i class="fas fa-gavel text-2xl"></i>
-                    </div>
-                    <h4 class="font-bold text-primary text-lg mb-2">Hukum Pidana</h4>
-                    <p class="text-sm text-gray-600">Pendampingan dan pembelaan dalam perkara pidana dari tingkat penyidikan hingga kasasi</p>
-                </div>
-
-                <div class="bg-gradient-to-br from-accent/5 to-accent/10 p-6 rounded-xl hover-lift border border-accent/10">
-                    <div class="gradient-accent text-white p-4 rounded-lg inline-block mb-4">
-                        <i class="fas fa-handshake text-2xl"></i>
-                    </div>
-                    <h4 class="font-bold text-primary text-lg mb-2">Hukum Perdata</h4>
-                    <p class="text-sm text-gray-600">Penyelesaian sengketa perdata, kontrak, wanprestasi, dan perbuatan melawan hukum</p>
-                </div>
-
-                <div class="bg-gradient-to-br from-primary/5 to-primary/10 p-6 rounded-xl hover-lift border border-primary/10">
-                    <div class="bg-primary text-white p-4 rounded-lg inline-block mb-4">
-                        <i class="fas fa-building text-2xl"></i>
-                    </div>
-                    <h4 class="font-bold text-primary text-lg mb-2">Hukum Bisnis</h4>
-                    <p class="text-sm text-gray-600">Konsultasi hukum perusahaan, kontrak bisnis, dan perizinan usaha</p>
-                </div>
-
-                <div class="bg-gradient-to-br from-accent/5 to-accent/10 p-6 rounded-xl hover-lift border border-accent/10">
-                    <div class="gradient-accent text-white p-4 rounded-lg inline-block mb-4">
-                        <i class="fas fa-home text-2xl"></i>
-                    </div>
-                    <h4 class="font-bold text-primary text-lg mb-2">Hukum Properti</h4>
-                    <p class="text-sm text-gray-600">Pengurusan sertifikat, sengketa tanah, dan transaksi properti</p>
-                </div>
-
-                <div class="bg-gradient-to-br from-primary/5 to-primary/10 p-6 rounded-xl hover-lift border border-primary/10">
-                    <div class="bg-primary text-white p-4 rounded-lg inline-block mb-4">
-                        <i class="fas fa-users text-2xl"></i>
-                    </div>
-                    <h4 class="font-bold text-primary text-lg mb-2">Hukum Keluarga</h4>
-                    <p class="text-sm text-gray-600">Perceraian, hak asuh anak, pembagian harta, dan waris</p>
-                </div>
-
-                <div class="bg-gradient-to-br from-accent/5 to-accent/10 p-6 rounded-xl hover-lift border border-accent/10">
-                    <div class="gradient-accent text-white p-4 rounded-lg inline-block mb-4">
-                        <i class="fas fa-briefcase text-2xl"></i>
-                    </div>
-                    <h4 class="font-bold text-primary text-lg mb-2">Hukum Ketenagakerjaan</h4>
-                    <p class="text-sm text-gray-600">PHK, perselisihan hubungan industrial, dan perjanjian kerja</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Tentang Kami Section -->
+        <!-- Tentang Kami Section -->
     <section id="tentang" class="py-16 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-2 gap-12 items-center">
@@ -404,6 +339,73 @@ accent: '#f87171',       /* soft merah */
             </div>
         </div>
     </section>
+
+    <!-- Layanan Section -->
+    <section id="layanan" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="text-accent font-semibold text-xs uppercase tracking-wider">Layanan Kami</span>
+                <h2 class="text-3xl font-bold text-primary mb-4 mt-1">
+                    Bidang <span class="gradient-accent bg-clip-text text-transparent">Keahlian Hukum</span>
+                </h2>
+                <p class="text-gray-600 text-sm max-w-2xl mx-auto">
+                    Kami menyediakan berbagai layanan hukum untuk memenuhi kebutuhan Anda
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-gradient-to-br from-primary/5 to-primary/10 p-6 rounded-xl hover-lift border border-primary/10">
+                    <div class="bg-primary text-white p-4 rounded-lg inline-block mb-4">
+                        <i class="fas fa-gavel text-2xl"></i>
+                    </div>
+                    <h4 class="font-bold text-primary text-lg mb-2">Hukum Pidana</h4>
+                    <p class="text-sm text-gray-600">Pendampingan dan pembelaan dalam perkara pidana dari tingkat penyidikan hingga kasasi</p>
+                </div>
+
+                <div class="bg-gradient-to-br from-accent/5 to-accent/10 p-6 rounded-xl hover-lift border border-accent/10">
+                    <div class="gradient-accent text-white p-4 rounded-lg inline-block mb-4">
+                        <i class="fas fa-handshake text-2xl"></i>
+                    </div>
+                    <h4 class="font-bold text-primary text-lg mb-2">Hukum Perdata</h4>
+                    <p class="text-sm text-gray-600">Penyelesaian sengketa perdata, kontrak, wanprestasi, dan perbuatan melawan hukum</p>
+                </div>
+
+                <div class="bg-gradient-to-br from-primary/5 to-primary/10 p-6 rounded-xl hover-lift border border-primary/10">
+                    <div class="bg-primary text-white p-4 rounded-lg inline-block mb-4">
+                        <i class="fas fa-building text-2xl"></i>
+                    </div>
+                    <h4 class="font-bold text-primary text-lg mb-2">Hukum Bisnis</h4>
+                    <p class="text-sm text-gray-600">Konsultasi hukum perusahaan, kontrak bisnis, dan perizinan usaha</p>
+                </div>
+
+                <div class="bg-gradient-to-br from-accent/5 to-accent/10 p-6 rounded-xl hover-lift border border-accent/10">
+                    <div class="gradient-accent text-white p-4 rounded-lg inline-block mb-4">
+                        <i class="fas fa-home text-2xl"></i>
+                    </div>
+                    <h4 class="font-bold text-primary text-lg mb-2">Hukum Properti</h4>
+                    <p class="text-sm text-gray-600">Pengurusan sertifikat, sengketa tanah, dan transaksi properti</p>
+                </div>
+
+                <div class="bg-gradient-to-br from-primary/5 to-primary/10 p-6 rounded-xl hover-lift border border-primary/10">
+                    <div class="bg-primary text-white p-4 rounded-lg inline-block mb-4">
+                        <i class="fas fa-users text-2xl"></i>
+                    </div>
+                    <h4 class="font-bold text-primary text-lg mb-2">Hukum Keluarga</h4>
+                    <p class="text-sm text-gray-600">Perceraian, hak asuh anak, pembagian harta, dan waris</p>
+                </div>
+
+                <div class="bg-gradient-to-br from-accent/5 to-accent/10 p-6 rounded-xl hover-lift border border-accent/10">
+                    <div class="gradient-accent text-white p-4 rounded-lg inline-block mb-4">
+                        <i class="fas fa-briefcase text-2xl"></i>
+                    </div>
+                    <h4 class="font-bold text-primary text-lg mb-2">Hukum Ketenagakerjaan</h4>
+                    <p class="text-sm text-gray-600">PHK, perselisihan hubungan industrial, dan perjanjian kerja</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <section id="kontak" class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16">
@@ -422,7 +424,7 @@ accent: '#f87171',       /* soft merah */
                         </div>
                         <div>
                             <h4 class="font-bold text-primary mb-1">Kantor Pusat</h4>
-                            <p class="text-sm text-gray-600 leading-relaxed">Jl. Jenderal Sudirman No. 123, Pekanbaru, Riau (Gunakan Alamat Asli Anda)</p>
+                            <p class="text-sm text-gray-600 leading-relaxed">Jl. Meranti, No. 46, Kelurahan Labuh Baru Timur, Kecamatan Payung Sekaki, Kota Pekanbaru, Provinsi Riau</p>
                         </div>
                     </div>
                 </div>
@@ -434,8 +436,8 @@ accent: '#f87171',       /* soft merah */
                         </div>
                         <div>
                             <h4 class="font-bold text-primary mb-1">WhatsApp</h4>
-                            <p class="text-sm text-gray-600">+62 812 3456 7890</p>
-                            <a href="https://wa.me/6281234567890" class="text-xs text-accent font-semibold hover:underline mt-2 inline-block">Kirim Pesan Sekarang →</a>
+                            <p class="text-sm text-gray-600">+62 812-6812-3180</p>
+                            <a href="https://wa.me/+6281268123180" class="text-xs text-accent font-semibold hover:underline mt-2 inline-block">Kirim Pesan Sekarang →</a>
                         </div>
                     </div>
                 </div>
@@ -447,7 +449,7 @@ accent: '#f87171',       /* soft merah */
                         </div>
                         <div>
                             <h4 class="font-bold text-primary mb-1">Email</h4>
-                            <p class="text-sm text-gray-600">info@drparlindungan.com</p>
+                            <p class="text-sm text-gray-600">pengacaraparlindungan@gmail.com</p>
                         </div>
                     </div>
                 </div>
