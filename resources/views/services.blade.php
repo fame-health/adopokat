@@ -489,7 +489,7 @@
                         <i class="fas fa-user-tie text-3xl"></i>
                     </div>
                     <h4 class="font-bold text-primary text-xl mb-3">Advokat Berpengalaman</h4>
-                    <p class="text-gray-600 leading-relaxed">Tim advokat dengan pengalaman 15+ tahun menangani berbagai jenis kasus dengan tingkat keberhasilan tinggi.</p>
+                    <p class="text-gray-600 leading-relaxed">Tim advokat dengan pengalaman 10+ tahun menangani berbagai jenis kasus dengan tingkat keberhasilan tinggi.</p>
                 </div>
 
                 <div class="bg-gray-50 p-8 rounded-2xl hover-lift border-l-4 border-accent">

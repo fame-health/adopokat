@@ -296,7 +296,7 @@
                     <div class="inline-block bg-accent/20 p-4 rounded-2xl mb-4">
                         <i class="fas fa-calendar-check text-4xl text-accent"></i>
                     </div>
-                    <div class="text-4xl font-bold gradient-accent bg-clip-text text-transparent mb-2">15+</div>
+                    <div class="text-4xl font-bold gradient-accent bg-clip-text text-transparent mb-2">10+</div>
                     <div class="text-sm text-gray-300">Tahun Pengalaman</div>
                 </div>
 
