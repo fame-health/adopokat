@@ -244,20 +244,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="relative floating max-w-sm mx-auto">
-                    <div class="glass-effect rounded-2xl p-6 shadow-2xl">
-                        <div class="bg-white rounded-2xl p-8 text-center shadow-2xl">
-                            <i class="fas fa-balance-scale text-8xl text-primary mb-4"></i>
-                            <h3 class="text-2xl font-bold text-primary mb-2">Keadilan & Profesionalisme</h3>
-                            <p class="text-gray-600 text-sm">Membela hak Anda dengan integritas tinggi</p>
-                        </div>
-                    </div>
+<div class="relative floating max-w-md mx-auto">
+    <div class="glass-effect rounded-2xl p-6 shadow-2xl">
+        <div class="bg-white rounded-2xl overflow-hidden shadow-2xl">
+            <img src="{{ asset('img/gambardepan.png') }}"
+                 alt="Gambar"
+                 class="w-full h-96 object-cover">
+        </div>
+    </div>
+</div>
 
-                    <div class="absolute -bottom-6 -left-6 gradient-accent p-5 rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-300">
-                        <div class="text-xs font-semibold text-white">Konsultasi Pertama</div>
-                        <div class="text-2xl font-bold text-white mt-0.5">GRATIS</div>
-                    </div>
-                </div>
             </div>
         </div>
         <div class="bg-gray-50 h-12 -mb-6 rounded-t-[40px]"></div>
@@ -331,70 +327,106 @@
         </div>
     </section>
 
-    <!-- Layanan Section -->
-    <section id="layanan" class="py-16 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-12">
-                <span class="text-accent font-semibold text-xs uppercase tracking-wider">Layanan Kami</span>
-                <h2 class="text-3xl font-bold text-primary mb-4 mt-1">
-                    Bidang <span class="gradient-accent bg-clip-text text-transparent">Keahlian Hukum</span>
-                </h2>
-                <p class="text-gray-600 text-sm max-w-2xl mx-auto">
-                    Kami menyediakan berbagai layanan hukum untuk memenuhi kebutuhan Anda
-                </p>
+<!-- Layanan Section -->
+<section id="layanan" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+            <span class="text-accent font-semibold text-xs uppercase tracking-wider">Layanan Kami</span>
+            <h2 class="text-3xl font-bold text-primary mb-4 mt-1">
+                Bidang <span class="gradient-accent bg-clip-text text-transparent">Keahlian Hukum</span>
+            </h2>
+            <p class="text-gray-600 text-sm max-w-2xl mx-auto">
+                Kami menyediakan berbagai layanan hukum untuk memenuhi kebutuhan Anda
+            </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Hukum Pidana -->
+            <div class="group bg-gradient-to-br from-primary/5 to-primary/10 p-6 rounded-xl hover-lift border border-primary/10 transition-all duration-300 hover:shadow-lg">
+                <div class="mb-6 overflow-hidden rounded-lg">
+                    <div class="relative h-48 w-full overflow-hidden rounded-lg">
+                        <img src="{{ asset('img/hukum-pidana.jpg') }}"
+                             alt="Hukum Pidana"
+                             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-primary/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    </div>
+                </div>
+                <h4 class="font-bold text-primary text-xl mb-3">Hukum Pidana</h4>
+                <p class="text-gray-600">Pendampingan dan pembelaan dalam perkara pidana dari tingkat penyidikan hingga kasasi dengan pengacara berpengalaman.</p>
             </div>
 
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="bg-gradient-to-br from-primary/5 to-primary/10 p-6 rounded-xl hover-lift border border-primary/10">
-                    <div class="bg-primary text-white p-4 rounded-lg inline-block mb-4">
-                        <i class="fas fa-gavel text-2xl"></i>
+            <!-- Hukum Perdata -->
+            <div class="group bg-gradient-to-br from-accent/5 to-accent/10 p-6 rounded-xl hover-lift border border-accent/10 transition-all duration-300 hover:shadow-lg">
+                <div class="mb-6 overflow-hidden rounded-lg">
+                    <div class="relative h-48 w-full overflow-hidden rounded-lg">
+                        <img src="{{ asset('img/hukum-perdata.jpg') }}"
+                             alt="Hukum Perdata"
+                             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-accent/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>
-                    <h4 class="font-bold text-primary text-lg mb-2">Hukum Pidana</h4>
-                    <p class="text-sm text-gray-600">Pendampingan dan pembelaan dalam perkara pidana dari tingkat penyidikan hingga kasasi</p>
                 </div>
+                <h4 class="font-bold text-primary text-xl mb-3">Hukum Perdata</h4>
+                <p class="text-gray-600">Penyelesaian sengketa perdata, kontrak, wanprestasi, dan perbuatan melawan hukum dengan pendekatan yang komprehensif.</p>
+            </div>
 
-                <div class="bg-gradient-to-br from-accent/5 to-accent/10 p-6 rounded-xl hover-lift border border-accent/10">
-                    <div class="gradient-accent text-white p-4 rounded-lg inline-block mb-4">
-                        <i class="fas fa-handshake text-2xl"></i>
+            <!-- Hukum Bisnis -->
+            <div class="group bg-gradient-to-br from-primary/5 to-primary/10 p-6 rounded-xl hover-lift border border-primary/10 transition-all duration-300 hover:shadow-lg">
+                <div class="mb-6 overflow-hidden rounded-lg">
+                    <div class="relative h-48 w-full overflow-hidden rounded-lg">
+                        <img src="{{ asset('img/hukum-bisnis.jpg') }}"
+                             alt="Hukum Bisnis"
+                             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-primary/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>
-                    <h4 class="font-bold text-primary text-lg mb-2">Hukum Perdata</h4>
-                    <p class="text-sm text-gray-600">Penyelesaian sengketa perdata, kontrak, wanprestasi, dan perbuatan melawan hukum</p>
                 </div>
+                <h4 class="font-bold text-primary text-xl mb-3">Hukum Bisnis</h4>
+                <p class="text-gray-600">Konsultasi hukum perusahaan, kontrak bisnis, dan perizinan usaha untuk mendukung kesuksesan bisnis Anda.</p>
+            </div>
 
-                <div class="bg-gradient-to-br from-primary/5 to-primary/10 p-6 rounded-xl hover-lift border border-primary/10">
-                    <div class="bg-primary text-white p-4 rounded-lg inline-block mb-4">
-                        <i class="fas fa-building text-2xl"></i>
+            <!-- Hukum Properti -->
+            <div class="group bg-gradient-to-br from-accent/5 to-accent/10 p-6 rounded-xl hover-lift border border-accent/10 transition-all duration-300 hover:shadow-lg">
+                <div class="mb-6 overflow-hidden rounded-lg">
+                    <div class="relative h-48 w-full overflow-hidden rounded-lg">
+                        <img src="{{ asset('img/hukum-asset.jpg') }}"
+                             alt="Hukum Properti"
+                             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-accent/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>
-                    <h4 class="font-bold text-primary text-lg mb-2">Hukum Bisnis</h4>
-                    <p class="text-sm text-gray-600">Konsultasi hukum perusahaan, kontrak bisnis, dan perizinan usaha</p>
                 </div>
+                <h4 class="font-bold text-primary text-xl mb-3">Hukum Properti</h4>
+                <p class="text-gray-600">Pengurusan sertifikat, sengketa tanah, dan transaksi properti dengan jaminan keamanan hukum terpercaya.</p>
+            </div>
 
-                <div class="bg-gradient-to-br from-accent/5 to-accent/10 p-6 rounded-xl hover-lift border border-accent/10">
-                    <div class="gradient-accent text-white p-4 rounded-lg inline-block mb-4">
-                        <i class="fas fa-home text-2xl"></i>
+            <!-- Hukum Keluarga -->
+            <div class="group bg-gradient-to-br from-primary/5 to-primary/10 p-6 rounded-xl hover-lift border border-primary/10 transition-all duration-300 hover:shadow-lg">
+                <div class="mb-6 overflow-hidden rounded-lg">
+                    <div class="relative h-48 w-full overflow-hidden rounded-lg">
+                        <img src="{{ asset('img/hukum-keluarga.jpg') }}"
+                             alt="Hukum Keluarga"
+                             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-primary/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>
-                    <h4 class="font-bold text-primary text-lg mb-2">Hukum Properti</h4>
-                    <p class="text-sm text-gray-600">Pengurusan sertifikat, sengketa tanah, dan transaksi properti</p>
                 </div>
+                <h4 class="font-bold text-primary text-xl mb-3">Hukum Keluarga</h4>
+                <p class="text-gray-600">Perceraian, hak asuh anak, pembagian harta, dan waris dengan pendekatan yang manusiawi dan profesional.</p>
+            </div>
 
-                <div class="bg-gradient-to-br from-primary/5 to-primary/10 p-6 rounded-xl hover-lift border border-primary/10">
-                    <div class="bg-primary text-white p-4 rounded-lg inline-block mb-4">
-                        <i class="fas fa-users text-2xl"></i>
+            <!-- Hukum Ketenagakerjaan -->
+            <div class="group bg-gradient-to-br from-accent/5 to-accent/10 p-6 rounded-xl hover-lift border border-accent/10 transition-all duration-300 hover:shadow-lg">
+                <div class="mb-6 overflow-hidden rounded-lg">
+                    <div class="relative h-48 w-full overflow-hidden rounded-lg">
+                        <img src="{{ asset('img/hukum-kerja.jpg') }}"
+                             alt="Hukum Ketenagakerjaan"
+                             class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-accent/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>
-                    <h4 class="font-bold text-primary text-lg mb-2">Hukum Keluarga</h4>
-                    <p class="text-sm text-gray-600">Perceraian, hak asuh anak, pembagian harta, dan waris</p>
                 </div>
-
-                <div class="bg-gradient-to-br from-accent/5 to-accent/10 p-6 rounded-xl hover-lift border border-accent/10">
-                    <div class="gradient-accent text-white p-4 rounded-lg inline-block mb-4">
-                        <i class="fas fa-briefcase text-2xl"></i>
-                    </div>
-                    <h4 class="font-bold text-primary text-lg mb-2">Hukum Ketenagakerjaan</h4>
-                    <p class="text-sm text-gray-600">PHK, perselisihan hubungan industrial, dan perjanjian kerja</p>
-                </div>
+                <h4 class="font-bold text-primary text-xl mb-3">Hukum Ketenagakerjaan</h4>
+                <p class="text-gray-600">PHK, perselisihan hubungan industrial, dan perjanjian kerja dengan perlindungan hak pekerja dan pengusaha.</p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 <!-- Kontak Section -->
 <section id="kontak" class="py-12 md:py-20 bg-white overflow-hidden w-full">
     <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 w-full">

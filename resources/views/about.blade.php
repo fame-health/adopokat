@@ -247,13 +247,11 @@
                         DR. Parlindungan, SH. MH. CLA.
                     </h2>
                     <div class="w-20 h-1 gradient-accent rounded-full mb-6"></div>
-
-                    <p class="text-gray-600 leading-relaxed mb-4">
-                        DR. Parlindungan adalah seorang advokat berpengalaman dengan dedikasi tinggi dalam memberikan layanan hukum terbaik. Dengan latar belakang pendidikan yang solid dan pengalaman praktik lebih dari 15 tahun, beliau telah menangani ratusan kasus dengan tingkat keberhasilan yang tinggi.
+                    <p class="text-gray-600 text-sm mb-4 leading-relaxed">
+                        Kantor Hukum DR. Parlindungan, SH. MH. CLA. & Rekan adalah firma hukum yang berlokasi di Pekanbaru, Riau. Kami memiliki komitmen tinggi dalam memberikan layanan hukum terbaik dengan pendekatan profesional dan berintegritas.
                     </p>
-
-                    <p class="text-gray-600 leading-relaxed mb-6">
-                        Beliau memiliki keahlian khusus dalam berbagai bidang hukum, termasuk hukum pidana, perdata, bisnis, dan properti. Komitmennya adalah memberikan solusi hukum yang tepat, efektif, dan berorientasi pada kepentingan terbaik klien.
+                    <p class="text-gray-600 text-sm mb-6 leading-relaxed">
+                        Dipimpin oleh DR. Parlindungan, SH. MH. CLA., seorang Advokat berpengalaman, dosen di sejumlah perguruan tinggi di Riau, dan mantan wartawan ini, dengan berlatar pendidikan hukum yang solid, kami siap membantu menyelesaikan berbagai permasalahan hukum Anda dengan solusi yang tepat dan efektif.
                     </p>
 
                     <div class="grid grid-cols-2 gap-4">
